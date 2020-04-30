@@ -23,19 +23,19 @@ var graph = {
 		{country: "Italy", toa: 70}
 	],
 	links: [
-		{source: "China", target: "Korea"},
-		{source: "China", target: "USA"},
-		{source: "China", target: "UK"},
-		{source: "China", target: "Taiwan"},
-		{source: "China", target: "Vietnam"},
-		{source: "China", target: "Canada"},
-		{source: "China", target: "Italy"}
+		{source: "China", target: "Korea", strength: 0.1},
+		{source: "China", target: "USA", strength: 0.1},
+		{source: "China", target: "UK", strength: 0.2},
+		{source: "China", target: "Taiwan", strength: 0.2},
+		{source: "China", target: "Vietnam", strength: 0.3},
+		{source: "China", target: "Canada", strength: 0.1},
+		{source: "China", target: "Italy", strength: 0.2}
 	]
 };
 var canvas = d3.select("#network"),
 	width = canvas.attr("width"),
 	height = canvas.attr("height"),
-	r = 20,
+	r = toa,
 	ctx = canvas.node().getContext("2d"),
 	simulation = d3.forceSimulation()
 		.force("x", d3.forceX(width / 2))
