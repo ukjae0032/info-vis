@@ -35,7 +35,7 @@ var graph = {
 var canvas = d3.select("#network"),
 	width = canvas.attr("width"),
 	height = canvas.attr("height"),
-	r = toa,
+	r = 3,
 	ctx = canvas.node().getContext("2d"),
 	simulation = d3.forceSimulation()
 		.force("x", d3.forceX(width / 2))
