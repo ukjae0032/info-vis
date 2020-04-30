@@ -13,7 +13,7 @@
 <script>
 var graph = {
 	nodes: [
-		{country: "China", toa: 0},
+		{country: "China", toa: },
 		{country: "Korea", toa: 10},
 		{country: "USA", toa: 20},
 		{country: "UK", toa: 30},
@@ -68,8 +68,9 @@ function update() {
 }
 
 function drawNode(d) {
+	ctx.fillStyle = color(d.toa);
 	ctx.moveTo(d.x, d.y);
-	ctx.arc(d.x, d.y, d.toa, 0, 2 * Math.PI);
+	ctx.arc(d.x, d.y, r, 0, 2 * Math.PI);
 }
 
 function drawLink(l) {
