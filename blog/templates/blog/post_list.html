@@ -37,7 +37,7 @@ var canvas = d3.select("#network"),
 	height = canvas.attr("height"),
 	r = 3,
 	ctx = canvas.node().getContext("2d"),
-
+	simulation = d3.forceSimulation()
 		.force("y", d3.forceY(height / 2))
 		.force("collide", d3.forceCollide()
 			.radius(function(d) {return d.toa}))
@@ -65,15 +65,15 @@ function update() {
 
 	ctx.beginPath();
 	graph.nodes.forEach(drawNode);
-	ctx.fill();
+//	ctx.fill();
 }
 
 function drawNode(d) {
 //	ctx.fillStyle = color(d.toa);
 	ctx.moveTo(d.x, d.y);
 	ctx.arc(d.x, d.y, d.toa * 0.1, 0, 2 * Math.PI);
-//	ctx.fillStyle = "red";
-//	ctx.fill();
+	ctx.fillStyle = "red";
+	ctx.fill();
 }
 
 function drawLink(l) {
