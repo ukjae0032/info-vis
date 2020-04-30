@@ -44,7 +44,7 @@ var canvas = d3.select("#network"),
 		.force("charge", d3.forceManyBody()
 			.strength(-200))
 		.force("link", d3.forceLink()
-			.id(function(d) { return d.name; }))
+			.id(function(d) { return d.country; }))
 		.on("tick", update);
 //graph.nodes.forEach(function (d) {
 //	d.x = Math.random() * width;
