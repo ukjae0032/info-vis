@@ -73,7 +73,7 @@ function drawNode(d) {
 //	ctx.fillStyle = color(d.toa);
 	ctx.moveTo(d.x, d.y);
 //	ctx.arc(d.x, d.y, d.confirmed / 100000, 0, 2 * Math.PI);
-	ctx.arc(d.x, d.y, d.toa, 0, 2 * Math.PI);
+	ctx.arc(d.x, d.y, d.toa / 10, 0, 2 * Math.PI);
 	if (d.toa > 0)
 		ctx.fillStyle = "red";
 	else
