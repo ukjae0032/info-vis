@@ -13,14 +13,14 @@
 <script>
 var graph = {
 	nodes: [
-		{country: "China", toa: 1, confirmed: 80000},
+		{country: "China", toa: 10, confirmed: 80000},
 		{country: "Korea", toa: 1, confirmed: 10000},
 		{country: "USA", toa: 1, confirmed: 1000000},
 		{country: "UK", toa: 1, confirmed: 165000},
 		{country: "Spain", toa: 1, confirmed: 237000},
 		{country: "Netherlands", toa: 1, confirmed: 39000},
 		{country: "Canada", toa: 1, confirmed: 52000},
-		{country: "Italy", toa: 1, confirmed: 200000}
+		{country: "Italy", toa: 10, confirmed: 200000}
 	],
 	links: [
 		{source: "China", target: "Korea", strength: 0.1},
@@ -43,7 +43,7 @@ var canvas = d3.select("#network"),
 		.force("collide", d3.forceCollide()
 			.radius(function(d) {return d.confirmed / 10000 + 2; }))
 		.force("charge", d3.forceManyBody()
-			.strength(function(d) {return d.toa * 1; }))
+			.strength(function(d) {return d.toa * 50; }))
 		.force("link", d3.forceLink()
 			.id(function(d) { return d.country; }))
 		.on("tick", update);
