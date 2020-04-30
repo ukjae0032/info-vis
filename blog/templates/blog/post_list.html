@@ -38,12 +38,12 @@ var canvas = d3.select("#network"),
 	r = 3,
 	ctx = canvas.node().getContext("2d"),
 	simulation = d3.forceSimulation()
-		.force("x", d3.forceX(width / 2))
-		.force("y", d3.forceY(height / 2))
+		.force("x", d3.forceX(width / 3))
+		.force("y", d3.forceY(height / 3))
 		.force("collide", d3.forceCollide()
 			.radius(function(d) {return 3}))
 		.force("charge", d3.forceManyBody()
-			.strength(function(d) {return -d.confirmed / 1000}))
+			.strength(function(d) {return -d.confirmed / 100}))
 		.force("link", d3.forceLink()
 			.id(function(d) { return d.country; }))
 		.on("tick", update);
