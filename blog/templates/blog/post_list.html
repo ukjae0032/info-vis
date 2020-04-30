@@ -41,7 +41,7 @@ var canvas = d3.select("#network"),
 		.force("x", d3.forceX(width / 3))
 		.force("y", d3.forceY(height / 3))
 		.force("collide", d3.forceCollide()
-			.radius(function(d) {return 0; }))
+			.radius(function(d) {return d.toa / 10; }))
 		.force("charge", d3.forceManyBody()
 			.strength(function(d) {return -d.toa; }))
 		.force("link", d3.forceLink()
