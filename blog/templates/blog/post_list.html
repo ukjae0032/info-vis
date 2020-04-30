@@ -7,7 +7,7 @@
 
 <body>
 <h1>Tentative Visualization</h1>
-<canvas id="network" width="750" height="750"></canvas>
+<canvas id="network" width="500" height="500"></canvas>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 
 <script>
@@ -73,7 +73,14 @@ function drawNode(d) {
 //	ctx.fillStyle = color(d.toa);
 	ctx.moveTo(d.x, d.y);
 	ctx.arc(d.x, d.y, d.toa * 0.1, 0, 2 * Math.PI);
-	ctx.fillStyle = "red";
+	if (d.toa > 0)
+	{
+		ctx.fillStyle = "red";
+	}
+	else
+	{
+		ctx.fillStyle = "black";
+	}
 	ctx.fill();
 	ctx.font = "20px sans-serif";
 	ctx.fillStyle = "black"
