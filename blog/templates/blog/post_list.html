@@ -20,7 +20,16 @@ var graph = {
 		{country: "Taiwan", toa: 40},
 		{country: "Vietnam", toa: 50},
 		{country: "Canada", toa: 60},
-		{country: "Italy", toa: 70},
+		{country: "Italy", toa: 70}
+	],
+	links: [
+		{source: "China", target: "Korea"},
+		{source: "China", target: "USA"},
+		{source: "China", target: "UK"},
+		{source: "China", target: "Taiwan"},
+		{source: "China", target: "Vietnam"},
+		{source: "China", target: "Canada"},
+		{source: "China", target: "Italy"}
 	]
 };
 var canvas = d3.select("#network"),
@@ -34,6 +43,7 @@ var canvas = d3.select("#network"),
 		.force("collide", d3.forceCollide(r + 1))
 		.force("charge", d3.forceManyBody()
 			.strength(-200))
+		.force("link", d3.forceLink())
 		.on("tick", update);
 //graph.nodes.forEach(function (d) {
 //	d.x = Math.random() * width;
@@ -41,18 +51,31 @@ var canvas = d3.select("#network"),
 //});
 
 simulation.nodes(graph.nodes);
+simulation.force("link")
+	.links(graph.links);
 
 function update() {
 	ctx.clearRect(0, 0, width, height);
 
 	ctx.beginPath();
+	graph.links.forEach(drawLink);
+	ctx.stroke();
+
+	ctx.beginPath();
 	graph.nodes.forEach(drawNode);
 	ctx.fill();
 }
+
 function drawNode(d) {
 	ctx.moveTo(d.x, d.y);
 	ctx.arc(d.x, d.y, r, 0, 2 * Math.PI);
 }
+
+function drawLink(l) {
+	ctx.moveTo(l.source.x, l.source.y);
+	ctx.lineTo(l.target.x, l.target.y);
+}
+
 update();
 </script>
 </body>
