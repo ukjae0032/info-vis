@@ -75,9 +75,9 @@ function drawNode(d) {
 	ctx.arc(d.x, d.y, d.toa * 0.1, 0, 2 * Math.PI);
 	ctx.fillStyle = "red";
 	ctx.fill();
-	ctx.font = "40px sans-serif";
+	ctx.font = "20px sans-serif";
 	ctx.fillStyle = "black"
-	ctx.fillText(d.country, canvas.width / 6, d.y);
+	ctx.fillText(d.country, d.x, d.y);
 }
 
 function drawLink(l) {
