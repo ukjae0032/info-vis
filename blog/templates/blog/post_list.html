@@ -69,7 +69,7 @@ function update() {
 
 function drawNode(d) {
 	ctx.moveTo(d.x, d.y);
-	ctx.arc(d.x, d.y, r, 0, 2 * Math.PI);
+	ctx.arc(d.x, d.y, d.toa, 0, 2 * Math.PI);
 }
 
 function drawLink(l) {
