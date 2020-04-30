@@ -13,21 +13,21 @@
 <script>
 var graph = {
 	nodes: [
-		{country: "China", toa: 10},
-		{country: "Korea", toa: 10},
-		{country: "USA", toa: 20},
-		{country: "UK", toa: 30},
-		{country: "Taiwan", toa: 40},
-		{country: "Vietnam", toa: 50},
-		{country: "Canada", toa: 60},
-		{country: "Italy", toa: 70}
+		{country: "China", toa: 10, confirmed: 80000},
+		{country: "Korea", toa: 10, confirmed: 10000},
+		{country: "USA", toa: 20, confirmed: 1000000},
+		{country: "UK", toa: 30, confirmed: 165000},
+		{country: "Spain", toa: 40, confirmed: 237000},
+		{country: "Netherlands", toa: 50, confirmed: 39000},
+		{country: "Canada", toa: 60, confirmed: 52000},
+		{country: "Italy", toa: 70, confirmed: 200000}
 	],
 	links: [
 		{source: "China", target: "Korea", strength: 0.1},
 		{source: "China", target: "USA", strength: 0.1},
 		{source: "China", target: "UK", strength: 0.2},
-		{source: "China", target: "Taiwan", strength: 0.2},
-		{source: "China", target: "Vietnam", strength: 0.3},
+		{source: "China", target: "Spain", strength: 0.2},
+		{source: "China", target: "Netherlands", strength: 0.3},
 		{source: "China", target: "Canada", strength: 0.1},
 		{source: "China", target: "Italy", strength: 0.2}
 	]
@@ -41,7 +41,7 @@ var canvas = d3.select("#network"),
 		.force("x", d3.forceX(width / 2))
 		.force("y", d3.forceY(height / 2))
 		.force("collide", d3.forceCollide()
-			.radius(function(d) {return d.toa}))
+			.radius(function(d) {return d.confirmed / 10000}))
 		.force("charge", d3.forceManyBody()
 			.strength(function(d) {return d.toa}))
 		.force("link", d3.forceLink()
@@ -74,13 +74,9 @@ function drawNode(d) {
 	ctx.moveTo(d.x, d.y);
 	ctx.arc(d.x, d.y, d.toa * 0.1, 0, 2 * Math.PI);
 	if (d.toa > 0)
-	{
 		ctx.fillStyle = "red";
-	}
 	else
-	{
 		ctx.fillStyle = "black";
-	}
 	ctx.fill();
 	ctx.font = "20px sans-serif";
 	ctx.fillStyle = "black"
