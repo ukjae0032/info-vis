@@ -20,7 +20,7 @@ var graph = {
 		{country: "Spain", toa: 40, confirmed: 237000},
 		{country: "Netherlands", toa: 50, confirmed: 39000},
 		{country: "Canada", toa: 60, confirmed: 52000},
-		{country: "Italy", toa: 70, confirmed: 200000}
+		{country: "Italy", toa: 700, confirmed: 200000}
 	],
 	links: [
 		{source: "China", target: "Korea", strength: 0.1},
@@ -43,7 +43,7 @@ var canvas = d3.select("#network"),
 		.force("collide", d3.forceCollide()
 			.radius(function(d) {return 0; }))
 		.force("charge", d3.forceManyBody()
-			.strength(function(d) {return -d.toa * 300; }))
+			.strength(function(d) {return d.toa * 300; }))
 		.force("link", d3.forceLink()
 			.id(function(d) { return d.country; }))
 		.on("tick", update);
