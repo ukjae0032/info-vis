@@ -7,7 +7,7 @@
 	var svg = d3.select("svg");
 	for (var i=0; i < dataset.length; i++)
 	{
-		avg.append("rect")
+		svg.append("rect")
 			.attr("height", dataset[i])
 			.attr("width", 40)
 			.attr("x", 50 * i);
