@@ -1,22 +1,15 @@
-<!doctype html>
-<html>
-<head>
-	<title>INsight</title>
-	<script src="https://d3js.org/d3.v3.min.js"></script>
-</head>
-<body>
-	<p>Hi there!</p>
-</body>
-	<script>
-                var canvas = d3.select("body").append("svg")
-                        .attr("width", 500)
-                        .attr("height, 500");
-                var diagonal = d3.svg.diagonal()
-                        .source({x: 10, y: 10})
-                        .target({x: 300, y: 300});
-                canvas.append("path")
-                        .attr("fill", "none")
-                        .attr("stroke", "black")
-                        .attr("d", diagonal);
-        </script>
-</html>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<svg width="500" height="300"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+	var dataset = [9, 19, 29, 39, 29, 19, 9];
+	var svg = d3.select("svg");
+	for (var i=0; i < datasete.length; i++)
+	{
+		avg.append("rect")
+			.attr("height", dataset[i])
+			.attr("width", 40)
+			.attr("x", 50 * i);
+	}
+</script>
