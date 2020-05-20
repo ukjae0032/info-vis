@@ -39,7 +39,7 @@ svg {
 		.text(function(d) {return d})
 			.attr("class", "text")
 			.attr("x", function(d, i) {return 50*i})
-			.attr("y", function(d, i) {return 250 - 50*i});
+			.attr("y", function(d, i) {return 250 - d.y*5});
 </script>
 
 
