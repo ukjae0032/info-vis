@@ -29,10 +29,10 @@ svg {
 		.data(dataset)
 		.enter().append("rect")
 			.attr("class", "bar")
-			.attr("height", function(d, i) {return d*5})
+			.attr("height", function(d, i) {return dataset[i]*5})
 			.attr("width", 40)
 			.attr("x", function(d, i) {return (50 * i)})
-			.attr("y", function(d, i) {return (250 - d*5)});
+			.attr("y", function(d, i) {return (250 - dataset[i]*5)});
 	svg.selectAll("text")
 		.data(dataset)
 		.enter().append("text")
