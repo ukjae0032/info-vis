@@ -137,7 +137,7 @@ var x = d3.scaleBand()
   .range([ 0, width ])
   .domain(myGroups)
   .padding(0.01);
-svg.append("g")
+svg2.append("g")
   .attr("transform", "translate(0," + height + ")")
   .call(d3.axisBottom(x))
 
@@ -146,7 +146,7 @@ var y = d3.scaleBand()
   .range([ height, 0 ])
   .domain(myVars)
   .padding(0.01);
-svg.append("g")
+svg2.append("g")
   .call(d3.axisLeft(y));
 
 // Build color scale
@@ -157,7 +157,7 @@ var myColor = d3.scaleLinear()
 //Read the data
 d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/heatmap_data.csv", function(data) {
 
-  svg.selectAll()
+  svg2.selectAll()
       .data(data, function(d) {return d.group+':'+d.variable;})
       .enter()
       .append("rect")
