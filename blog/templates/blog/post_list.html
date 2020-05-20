@@ -84,7 +84,7 @@ d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templat
 
 console.log(root.leaves())
   // use this information to add rectangles:
-  svg
+  svg1
     .selectAll("rect")
     .data(root.leaves())
     .enter()
@@ -97,7 +97,7 @@ console.log(root.leaves())
       .style("fill", "#69b3a2");
 
   // and to add the text labels
-  svg
+  svg1
     .selectAll("text")
     .data(root.leaves())
     .enter()
