@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+
 <style>
 svg {
 	border: 1px solid;
@@ -17,9 +18,12 @@ svg {
 	font-weight:bold;
 }
 </style>
+
 <svg width="500" height="300"></svg>
+
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
+
+<!--<script>
 	var dataset = [{x:'A', y:9}, {x:'B', y:19}, {x:'C', y:29}, {x:'D', y:39},
 		{x:'E', y:29}, {x:'F', y:19}, {x:'G', y:9}];
 
@@ -40,10 +44,10 @@ svg {
 			.attr("class", "text")
 			.attr("x", function(d, i) {return 50*i})
 			.attr("y", function(d, i) {return 250 - d.y*5});
-</script>
+</script>-->
 
 
-<div id="my_treemap"></div>
+<div id="treemap"></div>
 
 <script>
 
@@ -53,7 +57,7 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10},
   height = 445 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_treemap")
+var svg = d3.select("#treemap")
 .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
@@ -107,7 +111,7 @@ console.log(root.leaves())
 </script>
 
 
-<div id="my_dataviz"></div>
+<div id="heatmap1"></div>
 <script>
 
 // set the dimensions and margins of the graph
@@ -116,7 +120,7 @@ var margin = {top: 30, right: 30, bottom: 30, left: 30},
   height = 450 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
+var svg = d3.select("#heatmap1")
 .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
