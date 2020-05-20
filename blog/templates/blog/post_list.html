@@ -62,7 +62,6 @@ var svg = d3.select("#my_treemap")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Read data
-//d3.csv('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_hierarchy_1level.csv', function(data) {
 d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/data.csv", function(data) {
 
   // stratify the data: reformatting for d3.js
@@ -108,7 +107,7 @@ console.log(root.leaves())
 </script>
 
 
-<!--<div id="my_dataviz"></div>
+<div id="my_dataviz"></div>
 <script>
 
 // set the dimensions and margins of the graph
@@ -166,4 +165,4 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/he
 
 })
 
-</script>-->
+</script>
