@@ -129,8 +129,8 @@ var svg2 = d3.select("#heatmap1")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Labels of row and columns
-var myGroups = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
-var myVars = ["v1", "v2", "v3", "v4", "v5", "v6", "v7", "v8", "v9", "v10"]
+var myGroups = ["Italy"]
+var myVars = ["1/22/20", "1/23/20"]
 
 // Build X scales and axis:
 var x = d3.scaleBand()
@@ -155,7 +155,7 @@ var myColor = d3.scaleLinear()
   .domain([1,100])
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/heatmap_data.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/heatmap1_data.csv", function(data) {
 
   svg2.selectAll()
       .data(data, function(d) {return d.group+':'+d.variable;})
