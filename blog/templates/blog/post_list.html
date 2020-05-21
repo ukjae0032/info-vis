@@ -158,7 +158,7 @@ var myColor = d3.scaleLinear()
 d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/heatmap1_data.csv", function(data) {
 
   svg2.selectAll()
-      .data(data, function(d) {return d.group+':'+d.variable;})
+      .data(data, function(d) {return d.dates+':'+d.country;})
       .enter()
       .append("rect")
       .attr("x", function(d) { return x(d.dates) })
