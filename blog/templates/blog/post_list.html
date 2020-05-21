@@ -66,7 +66,7 @@ var svg1 = d3.select("#treemap")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Read data
-d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/data.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/treemap_data.csv", function(data) {
 
   // stratify the data: reformatting for d3.js
   var root = d3.stratify()
