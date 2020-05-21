@@ -161,11 +161,11 @@ d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templat
       .data(data, function(d) {return d.group+':'+d.variable;})
       .enter()
       .append("rect")
-      .attr("x", function(d) { return x(d.group) })
-      .attr("y", function(d) { return y(d.variable) })
+      .attr("x", function(d) { return x(d.date) })
+      .attr("y", function(d) { return y(d.country) })
       .attr("width", x.bandwidth() )
       .attr("height", y.bandwidth() )
-      .style("fill", function(d) { return myColor(d.value)} )
+      .style("fill", function(d) { return myColor(d.cases)} )
 
 })
 
