@@ -133,7 +133,7 @@ var myGroups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 var myVars = ["Italy", "a","b","c","d","e","f","g","h","i"]
 
 // Build X scales and axis:
-var x2 = d3.scaleBand()
+var x = d3.scaleBand()
   .range([ 0, width2 ])
   .domain(myGroups)
   .padding(0.01);
@@ -142,7 +142,7 @@ svg2.append("g")
   .call(d3.axisBottom(x))
 
 // Build X scales and axis:
-var y2 = d3.scaleBand()
+var y = d3.scaleBand()
   .range([ height2, 0 ])
   .domain(myVars)
   .padding(0.01);
