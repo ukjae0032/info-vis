@@ -133,7 +133,7 @@ var myGroups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 var myVars = ["Italy", "a","b","c","d","e","f","g","h","i"]
 
 // Build X scales and axis:
-var x = d3.scaleBand()
+var x2 = d3.scaleBand()
   .range([ 0, width2 ])
   .domain(myGroups)
   .padding(0.01);
@@ -142,7 +142,7 @@ svg2.append("g")
   .call(d3.axisBottom(x))
 
 // Build X scales and axis:
-var y = d3.scaleBand()
+var y2 = d3.scaleBand()
   .range([ height2, 0 ])
   .domain(myVars)
   .padding(0.01);
@@ -150,7 +150,7 @@ svg2.append("g")
   .call(d3.axisLeft(y));
 
 // Build color scale
-var myColor = d3.scaleLinear()
+var myColor2 = d3.scaleLinear()
   .range(["white", "#69b3a2"])
   .domain([2,3])
 
@@ -161,11 +161,11 @@ d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templat
       .data(data, function(d) {return d.dates+':'+d.country;})
       .enter()
       .append("rect")
-      .attr("x", function(d) { return x(d.dates) })
-      .attr("y", function(d) { return y(d.country) })
-      .attr("width", x.bandwidth() )
-      .attr("height", y.bandwidth() )
-      .style("fill", function(d) { return myColor(d.cases)} )
+      .attr("x", function(d) { return x2(d.dates) })
+      .attr("y", function(d) { return y2(d.country) })
+      .attr("width", x2.bandwidth() )
+      .attr("height", y2.bandwidth() )
+      .style("fill", function(d) { return myColor2(d.cases)} )
 
 })
 
