@@ -163,8 +163,8 @@ d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templat
       .append("rect")
       .attr("x", function(d) { return x2(d.dates) })
       .attr("y", function(d) { return y2(d.country) })
-      .attr("width", x.bandwidth() )
-      .attr("height", y.bandwidth() )
+      .attr("width", x2.bandwidth() )
+      .attr("height", y2.bandwidth() )
       .style("fill", function(d) { return myColor2(d.cases)} )
 
 })
