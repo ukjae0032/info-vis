@@ -115,18 +115,18 @@ console.log(root.leaves())
 <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 30, bottom: 30, left: 30},
+var margin2 = {top: 30, right: 30, bottom: 30, left: 50},
   width2 = 450 - margin.left - margin.right,
   height2 = 600 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg2 = d3.select("#heatmap1")
 .append("svg")
-  .attr("width", width2 + margin.left + margin.right)
-  .attr("height", height2 + margin.top + margin.bottom)
+  .attr("width", width2 + margin2.left + margin2.right)
+  .attr("height", height2 + margin2.top + margin2.bottom)
 .append("g")
   .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+        "translate(" + margin2.left + "," + margin2.top + ")");
 
 // Labels of row and columns
 var myVars = ["1/22/20", "1/23/20", "1/24/20", "1/25/20", "1/26/20", "1/27/20", "1/28/20", "1/29/20", "1/30/20", "1/31/20", "2/1/20", "2/2/20", "2/3/20", "2/4/20", "2/5/20", "2/6/20", "2/7/20", "2/8/20", "2/9/20", "2/10/20", "2/11/20", "2/12/20", "2/13/20", "2/14/20", "2/15/20", "2/16/20", "2/17/20", "2/18/20", "2/19/20", "2/20/20", "2/21/20", "2/22/20", "2/23/20", "2/24/20", "2/25/20", "2/26/20", "2/27/20", "2/28/20", "2/29/20"]
