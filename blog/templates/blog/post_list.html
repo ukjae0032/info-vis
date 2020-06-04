@@ -247,8 +247,8 @@ var svg3 = d3.select("#heatmap2")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Labels of row and columns
-var myGroups = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
-var myVars = ["v1", "v2", "v3", "v4", "v5", "v6", "v7", "v8", "v9", "v10"]
+var myVars = ["5/23/09", "5/25/09", "5/26/09", "5/27/09", "5/29/09", "6/1/09", "6/3/09", "6/5/09", "6/8/09", "6/10/09", "6/11/09", "6/12/09", "6/15/09", "6/17/09", "6/19/09", "6/22/09", "6/24/09", "6/26/09", "6/29/09", "7/1/09", "7/3/09", "7/6/09"]
+var myGroups = ["United Kingdom", "France", "Italy", "Germany", "Spain", "Netherlands", "Greece", "Ireland", "Switzerland", "Dominican Republic", "Jamaica", "Bahamas", "Brazil", "Columbia", "Peru", "Costa Rica", "Israel", "Japan", "China", "India", "Hong Kong", "Taiwan", "South Korea", "Australia"]
 
 // Build X scales and axis:
 var x = d3.scaleBand()
@@ -270,20 +270,20 @@ svg3.append("g")
 // Build color scale
 var myColor = d3.scaleLinear()
   .range(["white", "#69b3a2"])
-  .domain([1,4])
+  .domain([1,5000])
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/heatmap_data.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/heatmap2_data.csv", function(data) {
 
   svg3.selectAll()
-      .data(data, function(d) {return d.group+':'+d.variable;})
+      .data(data, function(d) {return d.country+':'+d.date;})
       .enter()
       .append("rect")
-      .attr("x", function(d) { return x(d.group) })
-      .attr("y", function(d) { return y(d.variable) })
+      .attr("x", function(d) { return x(d.country) })
+      .attr("y", function(d) { return y(d.date) })
       .attr("width", x.bandwidth() )
       .attr("height", y.bandwidth() )
-      .style("fill", function(d) { return myColor(d.value)} )
+      .style("fill", function(d) { return myColor(d.cases)} )
 
 })
 
