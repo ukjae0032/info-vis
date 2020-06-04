@@ -168,8 +168,67 @@ d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templat
       .style("fill", function(d) { return myColor2(d.cases)} )
 
 })
-
 </script>
+
+<div id="china"></div>
+<script>
+
+// set the dimensions and margins of the graph
+var margin22 = {top: 30, right: 30, bottom: 30, left: 50},
+  width22 = 800 - margin.left - margin.right,
+  height22 = 600 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg22 = d3.select("#heatmap1")
+.append("svg")
+  .attr("width", width22 + margin22.left + margin22.right)
+  .attr("height", height22 + margin22.top + margin22.bottom)
+.append("g")
+  .attr("transform",
+        "translate(" + margin22.left + "," + margin22.top + ")");
+
+// Labels of row and columns
+var myVars = ["1/22/20", "1/23/20", "1/24/20", "1/25/20", "1/26/20", "1/27/20", "1/28/20", "1/29/20", "1/30/20", "1/31/20", "2/1/20", "2/2/20", "2/3/20", "2/4/20", "2/5/20", "2/6/20", "2/7/20", "2/8/20", "2/9/20", "2/10/20", "2/11/20", "2/12/20", "2/13/20", "2/14/20", "2/15/20", "2/16/20", "2/17/20", "2/18/20", "2/19/20", "2/20/20", "2/21/20", "2/22/20", "2/23/20", "2/24/20", "2/25/20", "2/26/20", "2/27/20", "2/28/20", "2/29/20"]
+var myGroups = ["Thailand", "South Korea", "Japan", "US", "Vietnam", "Singapore", "Malaysia", "Italy", "France", "United Kingdom", "Turkey", "Canada", "Australia", "Mexico", "New Zealand", "Iran", "Brazil", "Chile", "Argentina", "Germany"]
+
+// Build X scales and axis:
+var x22 = d3.scaleBand()
+  .range([ 0, width22 ])
+  .domain(myGroups)
+  .padding(0.01);
+svg22.append("g")
+  .attr("transform", "translate(0," + height22 + ")")
+  .call(d3.axisBottom(x22))
+
+// Build X scales and axis:
+var y22 = d3.scaleBand()
+  .range([ height22, 0 ])
+  .domain(myVars)
+  .padding(0.01);
+svg22.append("g")
+  .call(d3.axisLeft(y22));
+
+// Build color scale
+var myColor22 = d3.scaleLinear()
+  .range(["white", "#ff7f00"])
+  .domain([0,50])
+
+//Read the data
+d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/china.csv", function(data) {
+
+  svg22.selectAll()
+      .data(data, function(d) {return d.s+':'+d.country;})
+      .enter()
+      .append("rect")
+      .attr("x", function(d) { return x22(d.country) })
+      .attr("y", function(d) { return y22(d.s) })
+      .attr("width", x22.bandwidth() )
+      .attr("height", y22.bandwidth() )
+      .style("fill", function(d) { return myColor22(d.number)} )
+
+})
+</script>
+
 <div id="heatmap2"></div>
 <script>
 
