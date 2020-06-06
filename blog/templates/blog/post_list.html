@@ -307,17 +307,17 @@ var myColor33 = d3.scaleLinear()
   .domain([1,500])
 
 //Read the data
-d3.csv("", function(data) {
+d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/us.csv", function(data) {
 
   svg33.selectAll()
-      .data(data, function(d) {return d.country+':'+d.date;})
+      .data(data, function(d) {return d.country+':'+d.s;})
       .enter()
       .append("rect")
       .attr("x", function(d) { return x33(d.country) })
-      .attr("y", function(d) { return y33(d.date) })
+      .attr("y", function(d) { return y33(d.s) })
       .attr("width", x33.bandwidth() )
       .attr("height", y33.bandwidth() )
-      .style("fill", function(d) { return myColor33(d.cases)} )
+      .style("fill", function(d) { return myColor33(d.number)} )
 
 })
 </script>
