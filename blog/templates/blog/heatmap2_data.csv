@@ -1,26 +1,70 @@
 country,cases,date
-United Kingdom,117,5/23/09
-United Kingdom,122,5/25/09
-United Kingdom,137,5/26/09
-United Kingdom,137,5/27/09
-United Kingdom,203,5/29/09
-United Kingdom,229,6/1/09
-United Kingdom,339,6/3/09
-United Kingdom,428,6/5/09
-United Kingdom,557,6/8/09
-United Kingdom,666,6/10/09
-United Kingdom,822,6/11/09
-United Kingdom,822,6/12/09
-United Kingdom,1226,6/15/09
-United Kingdom,1461,6/17/09
-United Kingdom,1752,6/19/09
-United Kingdom,2506,6/22/09
-United Kingdom,2905,6/24/09
-United Kingdom,3597,6/26/09
-United Kingdom,4250,6/29/09
-United Kingdom,6538,7/1/09
-United Kingdom,7447,7/3/09
-United Kingdom,7447,7/6/09
+Mexico,3892,5/23/09
+Mexico,4174,5/25/09
+Mexico,4174,5/26/09
+Mexico,4541,5/27/09
+Mexico,4910,5/29/09
+Mexico,5029,6/1/09
+Mexico,5029,6/3/09
+Mexico,5563,6/5/09
+Mexico,5717,6/8/09
+Mexico,5717,6/10/09
+Mexico,6241,6/11/09
+Mexico,6241,6/12/09
+Mexico,6241,6/15/09
+Mexico,6241,6/17/09
+Mexico,7624,6/19/09
+Mexico,7624,6/22/09
+Mexico,7847,6/24/09
+Mexico,8279,6/26/09
+Mexico,8279,6/29/09
+Mexico,8680,7/1/09
+Mexico,10262,7/3/09
+Mexico,10262,7/6/09
+Canada,719,5/23/09
+Canada,805,5/25/09
+Canada,921,5/26/09
+Canada,921,5/27/09
+Canada,1118,5/29/09
+Canada,1336,6/1/09
+Canada,1530,6/3/09
+Canada,1795,6/5/09
+Canada,2115,6/8/09
+Canada,2446,6/10/09
+Canada,2446,6/11/09
+Canada,2978,6/12/09
+Canada,2978,6/15/09
+Canada,4049,6/17/09
+Canada,4905,6/19/09
+Canada,5710,6/22/09
+Canada,6457,6/24/09
+Canada,6732,6/26/09
+Canada,7775,6/29/09
+Canada,7983,7/1/09
+Canada,7983,7/3/09
+Canada,7983,7/6/09
+UK,117,5/23/09
+UK,122,5/25/09
+UK,137,5/26/09
+UK,137,5/27/09
+UK,203,5/29/09
+UK,229,6/1/09
+UK,339,6/3/09
+UK,428,6/5/09
+UK,557,6/8/09
+UK,666,6/10/09
+UK,822,6/11/09
+UK,822,6/12/09
+UK,1226,6/15/09
+UK,1461,6/17/09
+UK,1752,6/19/09
+UK,2506,6/22/09
+UK,2905,6/24/09
+UK,3597,6/26/09
+UK,4250,6/29/09
+UK,6538,7/1/09
+UK,7447,7/3/09
+UK,7447,7/6/09
 France,16,5/23/09
 France,16,5/25/09
 France,16,5/26/09
@@ -87,116 +131,28 @@ Germany,366,6/29/09
 Germany,417,7/1/09
 Germany,470,7/3/09
 Germany,505,7/6/09
-Spain,126,5/23/09
-Spain,133,5/25/09
-Spain,136,5/26/09
-Spain,138,5/27/09
-Spain,143,5/29/09
-Spain,178,6/1/09
-Spain,180,6/3/09
-Spain,218,6/5/09
-Spain,291,6/8/09
-Spain,331,6/10/09
-Spain,357,6/11/09
-Spain,488,6/12/09
-Spain,488,6/15/09
-Spain,499,6/17/09
-Spain,512,6/19/09
-Spain,522,6/22/09
-Spain,539,6/24/09
-Spain,541,6/26/09
-Spain,541,6/29/09
-Spain,717,7/1/09
-Spain,760,7/3/09
-Spain,776,7/6/09
-Netherlands,3,5/23/09
-Netherlands,3,5/25/09
-Netherlands,3,5/26/09
-Netherlands,3,5/27/09
-Netherlands,3,5/29/09
-Netherlands,3,6/1/09
-Netherlands,4,6/3/09
-Netherlands,4,6/5/09
-Netherlands,10,6/8/09
-Netherlands,22,6/10/09
-Netherlands,30,6/11/09
-Netherlands,35,6/12/09
-Netherlands,61,6/15/09
-Netherlands,68,6/17/09
-Netherlands,87,6/19/09
-Netherlands,91,6/22/09
-Netherlands,110,6/24/09
-Netherlands,116,6/26/09
-Netherlands,118,6/29/09
-Netherlands,128,7/1/09
-Netherlands,134,7/3/09
-Netherlands,135,7/6/09
-Greece,1,5/23/09
-Greece,1,5/25/09
-Greece,1,5/26/09
-Greece,1,5/27/09
-Greece,3,5/29/09
-Greece,4,6/1/09
-Greece,5,6/3/09
-Greece,5,6/5/09
-Greece,5,6/8/09
-Greece,5,6/10/09
-Greece,7,6/11/09
-Greece,7,6/12/09
-Greece,19,6/15/09
-Greece,23,6/17/09
-Greece,31,6/19/09
-Greece,48,6/22/09
-Greece,58,6/24/09
-Greece,73,6/26/09
-Greece,86,6/29/09
-Greece,92,7/1/09
-Greece,109,7/3/09
-Greece,151,7/6/09
-Ireland,1,5/23/09
-Ireland,1,5/25/09
-Ireland,1,5/26/09
-Ireland,1,5/27/09
-Ireland,3,5/29/09
-Ireland,4,6/1/09
-Ireland,4,6/3/09
-Ireland,8,6/5/09
-Ireland,11,6/8/09
-Ireland,12,6/10/09
-Ireland,12,6/11/09
-Ireland,12,6/12/09
-Ireland,12,6/15/09
-Ireland,12,6/17/09
-Ireland,16,6/19/09
-Ireland,23,6/22/09
-Ireland,23,6/24/09
-Ireland,29,6/26/09
-Ireland,39,6/29/09
-Ireland,41,7/1/09
-Ireland,51,7/3/09
-Ireland,74,7/6/09
-Switzerland,2,5/23/09
-Switzerland,3,5/25/09
-Switzerland,3,5/26/09
-Switzerland,3,5/27/09
-Switzerland,4,5/29/09
-Switzerland,8,6/1/09
-Switzerland,10,6/3/09
-Switzerland,10,6/5/09
-Switzerland,16,6/8/09
-Switzerland,16,6/10/09
-Switzerland,20,6/11/09
-Switzerland,20,6/12/09
-Switzerland,22,6/15/09
-Switzerland,27,6/17/09
-Switzerland,27,6/19/09
-Switzerland,31,6/22/09
-Switzerland,33,6/24/09
-Switzerland,47,6/26/09
-Switzerland,49,6/29/09
-Switzerland,56,7/1/09
-Switzerland,72,7/3/09
-Switzerland,76,7/6/09
+Japan,321,5/23/09
+Japan,345,5/25/09
+Japan,350,5/26/09
+Japan,360,5/27/09
+Japan,364,5/29/09
+Japan,370,6/1/09
+Japan,385,6/3/09
+Japan,410,6/5/09
+Japan,410,6/8/09
+Japan,485,6/10/09
+Japan,518,6/11/09
+Japan,549,6/12/09
+Japan,605,6/15/09
+Japan,666,6/17/09
+Japan,690,6/19/09
+Japan,850,6/22/09
+Japan,893,6/24/09
+Japan,1049,6/26/09
+Japan,1212,6/29/09
+Japan,1266,7/1/09
+Japan,1446,7/3/09
+Japan,1790,7/6/09
 Dominican Republic,2,5/23/09
 Dominican Republic,2,5/25/09
 Dominican Republic,2,5/26/09
@@ -241,160 +197,6 @@ Jamaica,21,6/29/09
 Jamaica,32,7/1/09
 Jamaica,32,7/3/09
 Jamaica,32,7/6/09
-Bahamas,1,5/23/09
-Bahamas,1,5/25/09
-Bahamas,1,5/26/09
-Bahamas,1,5/27/09
-Bahamas,1,5/29/09
-Bahamas,1,6/1/09
-Bahamas,1,6/3/09
-Bahamas,1,6/5/09
-Bahamas,1,6/8/09
-Bahamas,1,6/10/09
-Bahamas,1,6/11/09
-Bahamas,1,6/12/09
-Bahamas,1,6/15/09
-Bahamas,2,6/17/09
-Bahamas,2,6/19/09
-Bahamas,2,6/22/09
-Bahamas,4,6/24/09
-Bahamas,4,6/26/09
-Bahamas,4,6/29/09
-Bahamas,6,7/1/09
-Bahamas,6,7/3/09
-Bahamas,7,7/6/09
-Brazil,8,5/23/09
-Brazil,9,5/25/09
-Brazil,9,5/26/09
-Brazil,9,5/27/09
-Brazil,10,5/29/09
-Brazil,18,6/1/09
-Brazil,20,6/3/09
-Brazil,28,6/5/09
-Brazil,35,6/8/09
-Brazil,36,6/10/09
-Brazil,40,6/11/09
-Brazil,52,6/12/09
-Brazil,54,6/15/09
-Brazil,79,6/17/09
-Brazil,96,6/19/09
-Brazil,131,6/22/09
-Brazil,334,6/24/09
-Brazil,399,6/26/09
-Brazil,452,6/29/09
-Brazil,680,7/1/09
-Brazil,737,7/3/09
-Brazil,737,7/6/09
-Colombia,12,5/23/09
-Colombia,13,5/25/09
-Colombia,16,5/26/09
-Colombia,16,5/27/09
-Colombia,17,5/29/09
-Colombia,20,6/1/09
-Colombia,20,6/3/09
-Colombia,24,6/5/09
-Colombia,25,6/8/09
-Colombia,35,6/10/09
-Colombia,35,6/11/09
-Colombia,35,6/12/09
-Colombia,42,6/15/09
-Colombia,53,6/17/09
-Colombia,60,6/19/09
-Colombia,71,6/22/09
-Colombia,71,6/24/09
-Colombia,72,6/26/09
-Colombia,88,6/29/09
-Colombia,93,7/1/09
-Colombia,101,7/3/09
-Colombia,118,7/6/09
-Peru,5,5/23/09
-Peru,25,5/25/09
-Peru,27,5/26/09
-Peru,27,5/27/09
-Peru,31,5/29/09
-Peru,36,6/1/09
-Peru,40,6/3/09
-Peru,47,6/5/09
-Peru,61,6/8/09
-Peru,64,6/10/09
-Peru,64,6/11/09
-Peru,79,6/12/09
-Peru,91,6/15/09
-Peru,112,6/17/09
-Peru,141,6/19/09
-Peru,185,6/22/09
-Peru,217,6/24/09
-Peru,252,6/26/09
-Peru,360,6/29/09
-Peru,538,7/1/09
-Peru,538,7/3/09
-Peru,916,7/6/09
-Costa Rica,20,5/23/09
-Costa Rica,28,5/25/09
-Costa Rica,33,5/26/09
-Costa Rica,33,5/27/09
-Costa Rica,33,5/29/09
-Costa Rica,37,6/1/09
-Costa Rica,50,6/3/09
-Costa Rica,68,6/5/09
-Costa Rica,68,6/8/09
-Costa Rica,93,6/10/09
-Costa Rica,104,6/11/09
-Costa Rica,104,6/12/09
-Costa Rica,104,6/15/09
-Costa Rica,149,6/17/09
-Costa Rica,149,6/19/09
-Costa Rica,149,6/22/09
-Costa Rica,189,6/24/09
-Costa Rica,222,6/26/09
-Costa Rica,255,6/29/09
-Costa Rica,279,7/1/09
-Costa Rica,279,7/3/09
-Costa Rica,279,7/6/09
-Israel,7,5/23/09
-Israel,8,5/25/09
-Israel,8,5/26/09
-Israel,9,5/27/09
-Israel,11,5/29/09
-Israel,19,6/1/09
-Israel,33,6/3/09
-Israel,39,6/5/09
-Israel,54,6/8/09
-Israel,63,6/10/09
-Israel,68,6/11/09
-Israel,68,6/12/09
-Israel,117,6/15/09
-Israel,152,6/17/09
-Israel,219,6/19/09
-Israel,291,6/22/09
-Israel,375,6/24/09
-Israel,405,6/26/09
-Israel,469,6/29/09
-Israel,506,7/1/09
-Israel,577,7/3/09
-Israel,681,7/6/09
-Japan,321,5/23/09
-Japan,345,5/25/09
-Japan,350,5/26/09
-Japan,360,5/27/09
-Japan,364,5/29/09
-Japan,370,6/1/09
-Japan,385,6/3/09
-Japan,410,6/5/09
-Japan,410,6/8/09
-Japan,485,6/10/09
-Japan,518,6/11/09
-Japan,549,6/12/09
-Japan,605,6/15/09
-Japan,666,6/17/09
-Japan,690,6/19/09
-Japan,850,6/22/09
-Japan,893,6/24/09
-Japan,1049,6/26/09
-Japan,1212,6/29/09
-Japan,1266,7/1/09
-Japan,1446,7/3/09
-Japan,1790,7/6/09
 China,11,5/23/09
 China,15,5/25/09
 China,20,5/26/09
@@ -417,6 +219,28 @@ China,1442,6/29/09
 China,1518,7/1/09
 China,1814,7/3/09
 China,2040,7/6/09
+Spain,126,5/23/09
+Spain,133,5/25/09
+Spain,136,5/26/09
+Spain,138,5/27/09
+Spain,143,5/29/09
+Spain,178,6/1/09
+Spain,180,6/3/09
+Spain,218,6/5/09
+Spain,291,6/8/09
+Spain,331,6/10/09
+Spain,357,6/11/09
+Spain,488,6/12/09
+Spain,488,6/15/09
+Spain,499,6/17/09
+Spain,512,6/19/09
+Spain,522,6/22/09
+Spain,539,6/24/09
+Spain,541,6/26/09
+Spain,541,6/29/09
+Spain,717,7/1/09
+Spain,760,7/3/09
+Spain,776,7/6/09
 India,1,5/23/09
 India,1,5/25/09
 India,1,5/26/09
@@ -439,6 +263,72 @@ India,64,6/29/09
 India,104,7/1/09
 India,104,7/3/09
 India,129,7/6/09
+Netherlands,3,5/23/09
+Netherlands,3,5/25/09
+Netherlands,3,5/26/09
+Netherlands,3,5/27/09
+Netherlands,3,5/29/09
+Netherlands,3,6/1/09
+Netherlands,4,6/3/09
+Netherlands,4,6/5/09
+Netherlands,10,6/8/09
+Netherlands,22,6/10/09
+Netherlands,30,6/11/09
+Netherlands,35,6/12/09
+Netherlands,61,6/15/09
+Netherlands,68,6/17/09
+Netherlands,87,6/19/09
+Netherlands,91,6/22/09
+Netherlands,110,6/24/09
+Netherlands,116,6/26/09
+Netherlands,118,6/29/09
+Netherlands,128,7/1/09
+Netherlands,134,7/3/09
+Netherlands,135,7/6/09
+Brazil,8,5/23/09
+Brazil,9,5/25/09
+Brazil,9,5/26/09
+Brazil,9,5/27/09
+Brazil,10,5/29/09
+Brazil,18,6/1/09
+Brazil,20,6/3/09
+Brazil,28,6/5/09
+Brazil,35,6/8/09
+Brazil,36,6/10/09
+Brazil,40,6/11/09
+Brazil,52,6/12/09
+Brazil,54,6/15/09
+Brazil,79,6/17/09
+Brazil,96,6/19/09
+Brazil,131,6/22/09
+Brazil,334,6/24/09
+Brazil,399,6/26/09
+Brazil,452,6/29/09
+Brazil,680,7/1/09
+Brazil,737,7/3/09
+Brazil,737,7/6/09
+Israel,7,5/23/09
+Israel,8,5/25/09
+Israel,8,5/26/09
+Israel,9,5/27/09
+Israel,11,5/29/09
+Israel,19,6/1/09
+Israel,33,6/3/09
+Israel,39,6/5/09
+Israel,54,6/8/09
+Israel,63,6/10/09
+Israel,68,6/11/09
+Israel,68,6/12/09
+Israel,117,6/15/09
+Israel,152,6/17/09
+Israel,219,6/19/09
+Israel,291,6/22/09
+Israel,375,6/24/09
+Israel,405,6/26/09
+Israel,469,6/29/09
+Israel,506,7/1/09
+Israel,577,7/3/09
+Israel,681,7/6/09
 South Korea,3,5/23/09
 South Korea,3,5/25/09
 South Korea,21,5/26/09
@@ -483,3 +373,443 @@ Australia,4038,6/29/09
 Australia,4090,7/1/09
 Australia,4568,7/3/09
 Australia,5298,7/6/09
+Greece,1,5/23/09
+Greece,1,5/25/09
+Greece,1,5/26/09
+Greece,1,5/27/09
+Greece,3,5/29/09
+Greece,4,6/1/09
+Greece,5,6/3/09
+Greece,5,6/5/09
+Greece,5,6/8/09
+Greece,5,6/10/09
+Greece,7,6/11/09
+Greece,7,6/12/09
+Greece,19,6/15/09
+Greece,23,6/17/09
+Greece,31,6/19/09
+Greece,48,6/22/09
+Greece,58,6/24/09
+Greece,73,6/26/09
+Greece,86,6/29/09
+Greece,92,7/1/09
+Greece,109,7/3/09
+Greece,151,7/6/09
+Ireland,1,5/23/09
+Ireland,1,5/25/09
+Ireland,1,5/26/09
+Ireland,1,5/27/09
+Ireland,3,5/29/09
+Ireland,4,6/1/09
+Ireland,4,6/3/09
+Ireland,8,6/5/09
+Ireland,11,6/8/09
+Ireland,12,6/10/09
+Ireland,12,6/11/09
+Ireland,12,6/12/09
+Ireland,12,6/15/09
+Ireland,12,6/17/09
+Ireland,16,6/19/09
+Ireland,23,6/22/09
+Ireland,23,6/24/09
+Ireland,29,6/26/09
+Ireland,39,6/29/09
+Ireland,41,7/1/09
+Ireland,51,7/3/09
+Ireland,74,7/6/09
+Colombia,12,5/23/09
+Colombia,13,5/25/09
+Colombia,16,5/26/09
+Colombia,16,5/27/09
+Colombia,17,5/29/09
+Colombia,20,6/1/09
+Colombia,20,6/3/09
+Colombia,24,6/5/09
+Colombia,25,6/8/09
+Colombia,35,6/10/09
+Colombia,35,6/11/09
+Colombia,35,6/12/09
+Colombia,42,6/15/09
+Colombia,53,6/17/09
+Colombia,60,6/19/09
+Colombia,71,6/22/09
+Colombia,71,6/24/09
+Colombia,72,6/26/09
+Colombia,88,6/29/09
+Colombia,93,7/1/09
+Colombia,101,7/3/09
+Colombia,118,7/6/09
+Switzerland,2,5/23/09
+Switzerland,3,5/25/09
+Switzerland,3,5/26/09
+Switzerland,3,5/27/09
+Switzerland,4,5/29/09
+Switzerland,8,6/1/09
+Switzerland,10,6/3/09
+Switzerland,10,6/5/09
+Switzerland,16,6/8/09
+Switzerland,16,6/10/09
+Switzerland,20,6/11/09
+Switzerland,20,6/12/09
+Switzerland,22,6/15/09
+Switzerland,27,6/17/09
+Switzerland,27,6/19/09
+Switzerland,31,6/22/09
+Switzerland,33,6/24/09
+Switzerland,47,6/26/09
+Switzerland,49,6/29/09
+Switzerland,56,7/1/09
+Switzerland,72,7/3/09
+Switzerland,76,7/6/09
+Austria,1,5/23/09
+Austria,1,5/25/09
+Austria,1,5/26/09
+Austria,1,5/27/09
+Austria,1,5/29/09
+Austria,1,6/1/09
+Austria,1,6/3/09
+Austria,2,6/5/09
+Austria,5,6/8/09
+Austria,5,6/10/09
+Austria,7,6/11/09
+Austria,7,6/12/09
+Austria,7,6/15/09
+Austria,7,6/17/09
+Austria,8,6/19/09
+Austria,9,6/22/09
+Austria,12,6/24/09
+Austria,12,6/26/09
+Austria,12,6/29/09
+Austria,15,7/1/09
+Austria,15,7/3/09
+Austria,19,7/6/09
+Philippines,1,5/23/09
+Philippines,1,5/25/09
+Philippines,2,5/26/09
+Philippines,2,5/27/09
+Philippines,6,5/29/09
+Philippines,16,6/1/09
+Philippines,16,6/3/09
+Philippines,29,6/5/09
+Philippines,33,6/8/09
+Philippines,54,6/10/09
+Philippines,77,6/11/09
+Philippines,77,6/12/09
+Philippines,77,6/15/09
+Philippines,193,6/17/09
+Philippines,311,6/19/09
+Philippines,344,6/22/09
+Philippines,445,6/24/09
+Philippines,445,6/26/09
+Philippines,861,6/29/09
+Philippines,861,7/1/09
+Philippines,1709,7/3/09
+Philippines,1709,7/6/09
+Turkey,2,5/23/09
+Turkey,2,5/25/09
+Turkey,2,5/26/09
+Turkey,2,5/27/09
+Turkey,2,5/29/09
+Turkey,4,6/1/09
+Turkey,4,6/3/09
+Turkey,8,6/5/09
+Turkey,10,6/8/09
+Turkey,10,6/10/09
+Turkey,10,6/11/09
+Turkey,10,6/12/09
+Turkey,10,6/15/09
+Turkey,16,6/17/09
+Turkey,20,6/19/09
+Turkey,20,6/22/09
+Turkey,26,6/24/09
+Turkey,26,6/26/09
+Turkey,27,6/29/09
+Turkey,32,7/1/09
+Turkey,40,7/3/09
+Turkey,40,7/6/09
+Thailand,2,5/23/09
+Thailand,2,5/25/09
+Thailand,2,5/26/09
+Thailand,2,5/27/09
+Thailand,2,5/29/09
+Thailand,2,6/1/09
+Thailand,2,6/3/09
+Thailand,8,6/5/09
+Thailand,8,6/8/09
+Thailand,8,6/10/09
+Thailand,8,6/11/09
+Thailand,8,6/12/09
+Thailand,29,6/15/09
+Thailand,310,6/17/09
+Thailand,518,6/19/09
+Thailand,589,6/22/09
+Thailand,774,6/24/09
+Thailand,774,6/26/09
+Thailand,774,6/29/09
+Thailand,1414,7/1/09
+Thailand,1414,7/3/09
+Thailand,2076,7/6/09
+Czech Republic,1,5/23/09
+Czech Republic,1,5/25/09
+Czech Republic,1,5/26/09
+Czech Republic,1,5/27/09
+Czech Republic,1,5/29/09
+Czech Republic,1,6/1/09
+Czech Republic,1,6/3/09
+Czech Republic,2,6/5/09
+Czech Republic,2,6/8/09
+Czech Republic,2,6/10/09
+Czech Republic,4,6/11/09
+Czech Republic,4,6/12/09
+Czech Republic,4,6/15/09
+Czech Republic,4,6/17/09
+Czech Republic,5,6/19/09
+Czech Republic,7,6/22/09
+Czech Republic,7,6/24/09
+Czech Republic,9,6/26/09
+Czech Republic,9,6/29/09
+Czech Republic,9,7/1/09
+Czech Republic,15,7/3/09
+Czech Republic,15,7/6/09
+New Zealand,9,5/23/09
+New Zealand,9,5/25/09
+New Zealand,9,5/26/09
+New Zealand,9,5/27/09
+New Zealand,9,5/29/09
+New Zealand,9,6/1/09
+New Zealand,10,6/3/09
+New Zealand,11,6/5/09
+New Zealand,14,6/8/09
+New Zealand,23,6/10/09
+New Zealand,23,6/11/09
+New Zealand,27,6/12/09
+New Zealand,86,6/15/09
+New Zealand,127,6/17/09
+New Zealand,216,6/19/09
+New Zealand,258,6/22/09
+New Zealand,386,6/24/09
+New Zealand,453,6/26/09
+New Zealand,587,6/29/09
+New Zealand,711,7/1/09
+New Zealand,912,7/3/09
+New Zealand,1059,7/6/09
+Cayman Islands,1,5/23/09
+Cayman Islands,1,5/25/09
+Cayman Islands,1,5/26/09
+Cayman Islands,1,5/27/09
+Cayman Islands,1,5/29/09
+Cayman Islands,1,6/1/09
+Cayman Islands,1,6/3/09
+Cayman Islands,1,6/5/09
+Cayman Islands,1,6/8/09
+Cayman Islands,1,6/10/09
+Cayman Islands,2,6/11/09
+Cayman Islands,2,6/12/09
+Cayman Islands,2,6/15/09
+Cayman Islands,4,6/17/09
+Cayman Islands,4,6/19/09
+Cayman Islands,4,6/22/09
+Cayman Islands,7,6/24/09
+Cayman Islands,9,6/26/09
+Cayman Islands,9,6/29/09
+Cayman Islands,13,7/1/09
+Cayman Islands,14,7/3/09
+Cayman Islands,14,7/6/09
+Egypt,1,5/23/09
+Egypt,1,5/25/09
+Egypt,1,5/26/09
+Egypt,1,5/27/09
+Egypt,1,5/29/09
+Egypt,1,6/1/09
+Egypt,1,6/3/09
+Egypt,1,6/5/09
+Egypt,1,6/8/09
+Egypt,8,6/10/09
+Egypt,10,6/11/09
+Egypt,10,6/12/09
+Egypt,18,6/15/09
+Egypt,26,6/17/09
+Egypt,29,6/19/09
+Egypt,39,6/22/09
+Egypt,40,6/24/09
+Egypt,43,6/26/09
+Egypt,50,6/29/09
+Egypt,67,7/1/09
+Egypt,67,7/3/09
+Egypt,78,7/6/09
+South Africa,0,5/23/09
+South Africa,0,5/25/09
+South Africa,0,5/26/09
+South Africa,0,5/27/09
+South Africa,0,5/29/09
+South Africa,0,6/1/09
+South Africa,0,6/3/09
+South Africa,0,6/5/09
+South Africa,0,6/8/09
+South Africa,0,6/10/09
+South Africa,0,6/11/09
+South Africa,0,6/12/09
+South Africa,0,6/15/09
+South Africa,0,6/17/09
+South Africa,1,6/19/09
+South Africa,1,6/22/09
+South Africa,1,6/24/09
+South Africa,1,6/26/09
+South Africa,1,6/29/09
+South Africa,1,7/1/09
+South Africa,12,7/3/09
+South Africa,18,7/6/09
+Russia,1,5/23/09
+Russia,1,5/25/09
+Russia,2,5/26/09
+Russia,2,5/27/09
+Russia,2,5/29/09
+Russia,3,6/1/09
+Russia,3,6/3/09
+Russia,3,6/5/09
+Russia,3,6/8/09
+Russia,3,6/10/09
+Russia,3,6/11/09
+Russia,3,6/12/09
+Russia,3,6/15/09
+Russia,3,6/17/09
+Russia,3,6/19/09
+Russia,3,6/22/09
+Russia,3,6/24/09
+Russia,3,6/26/09
+Russia,3,6/29/09
+Russia,3,7/1/09
+Russia,3,7/3/09
+Russia,3,7/6/09
+Poland,2,5/23/09
+Poland,3,5/25/09
+Poland,3,5/26/09
+Poland,3,5/27/09
+Poland,4,5/29/09
+Poland,4,6/1/09
+Poland,4,6/3/09
+Poland,4,6/5/09
+Poland,5,6/8/09
+Poland,6,6/10/09
+Poland,7,6/11/09
+Poland,7,6/12/09
+Poland,7,6/15/09
+Poland,7,6/17/09
+Poland,7,6/19/09
+Poland,13,6/22/09
+Poland,13,6/24/09
+Poland,13,6/26/09
+Poland,14,6/29/09
+Poland,15,7/1/09
+Poland,19,7/3/09
+Poland,25,7/6/09
+Singapore,0,5/23/09
+Singapore,0,5/25/09
+Singapore,0,5/26/09
+Singapore,1,5/27/09
+Singapore,4,5/29/09
+Singapore,5,6/1/09
+Singapore,9,6/3/09
+Singapore,12,6/5/09
+Singapore,15,6/8/09
+Singapore,18,6/10/09
+Singapore,18,6/11/09
+Singapore,18,6/12/09
+Singapore,47,6/15/09
+Singapore,49,6/17/09
+Singapore,77,6/19/09
+Singapore,142,6/22/09
+Singapore,194,6/24/09
+Singapore,315,6/26/09
+Singapore,599,6/29/09
+Singapore,701,7/1/09
+Singapore,878,7/3/09
+Singapore,1055,7/6/09
+Vietnam,0,5/23/09
+Vietnam,0,5/25/09
+Vietnam,0,5/26/09
+Vietnam,0,5/27/09
+Vietnam,0,5/29/09
+Vietnam,1,6/1/09
+Vietnam,3,6/3/09
+Vietnam,3,6/5/09
+Vietnam,9,6/8/09
+Vietnam,15,6/10/09
+Vietnam,16,6/11/09
+Vietnam,23,6/12/09
+Vietnam,25,6/15/09
+Vietnam,27,6/17/09
+Vietnam,27,6/19/09
+Vietnam,35,6/22/09
+Vietnam,56,6/24/09
+Vietnam,63,6/26/09
+Vietnam,84,6/29/09
+Vietnam,123,7/1/09
+Vietnam,131,7/3/09
+Vietnam,181,7/6/09
+Morocco,0,5/23/09
+Morocco,0,5/25/09
+Morocco,0,5/26/09
+Morocco,0,5/27/09
+Morocco,0,5/29/09
+Morocco,0,6/1/09
+Morocco,0,6/3/09
+Morocco,0,6/5/09
+Morocco,0,6/8/09
+Morocco,0,6/10/09
+Morocco,0,6/11/09
+Morocco,0,6/12/09
+Morocco,1,6/15/09
+Morocco,3,6/17/09
+Morocco,8,6/19/09
+Morocco,8,6/22/09
+Morocco,9,6/24/09
+Morocco,11,6/26/09
+Morocco,11,6/29/09
+Morocco,17,7/1/09
+Morocco,17,7/3/09
+Morocco,17,7/6/09
+Malaysia,2,5/23/09
+Malaysia,2,5/25/09
+Malaysia,2,5/26/09
+Malaysia,2,5/27/09
+Malaysia,2,5/29/09
+Malaysia,2,6/1/09
+Malaysia,2,6/3/09
+Malaysia,2,6/5/09
+Malaysia,5,6/8/09
+Malaysia,5,6/10/09
+Malaysia,5,6/11/09
+Malaysia,5,6/12/09
+Malaysia,5,6/15/09
+Malaysia,17,6/17/09
+Malaysia,23,6/19/09
+Malaysia,23,6/22/09
+Malaysia,68,6/24/09
+Malaysia,68,6/26/09
+Malaysia,112,6/29/09
+Malaysia,112,7/1/09
+Malaysia,112,7/3/09
+Malaysia,112,7/6/09
+Indonesia,0,5/23/09
+Indonesia,0,5/25/09
+Indonesia,0,5/26/09
+Indonesia,0,5/27/09
+Indonesia,0,5/29/09
+Indonesia,0,6/1/09
+Indonesia,0,6/3/09
+Indonesia,0,6/5/09
+Indonesia,0,6/8/09
+Indonesia,0,6/10/09
+Indonesia,0,6/11/09
+Indonesia,0,6/12/09
+Indonesia,0,6/15/09
+Indonesia,0,6/17/09
+Indonesia,0,6/19/09
+Indonesia,0,6/22/09
+Indonesia,0,6/24/09
+Indonesia,2,6/26/09
+Indonesia,8,6/29/09
+Indonesia,8,7/1/09
+Indonesia,8,7/3/09
+Indonesia,20,7/6/09
