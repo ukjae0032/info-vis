@@ -193,7 +193,7 @@ var myColor22 = d3.scaleLinear()
 d3.csv("https://raw.githubusercontent.com/ukjae0032/info-vis/master/blog/templates/blog/china.csv", function(data) {
 
   svg22.selectAll()
-      .data(data, function(d) {return d.s+':'+d.country;})
+      .data(data, function(d) {return d.country+':'+d.s;})
       .enter()
       .append("rect")
       .attr("x", function(d) { return x22(d.country) })
