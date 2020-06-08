@@ -291,7 +291,7 @@ var x33 = d3.scaleBand()
   .padding(0.01);
 svg33.append("g")
   .attr("transform", "translate(0," + height33 + ")")
-  .call(d3.axisBottom(x33))
+<!--  .call(d3.axisBottom(x33))-->
 
 // Build X scales and axis:
 var y33 = d3.scaleBand()
@@ -299,7 +299,7 @@ var y33 = d3.scaleBand()
   .domain(myVars)
   .padding(0.01);
 svg3.append("g")
-  .call(d3.axisLeft(y33));
+<!--  .call(d3.axisLeft(y33));-->
 
 // Build color scale
 var myColor33 = d3.scaleLinear()
